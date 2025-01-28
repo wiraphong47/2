@@ -172,18 +172,7 @@ $row = mysqli_fetch_assoc($result);
         </select>
       </div>
 
-      <div class="form-group">
-        <label for="emp_department">แผนก :</label>
-        <select name="emp_department" class="form-control" required>
-          <option value="">--เลือกแผนก--</option>
-          <option value="1">ฝ่ายบุคคล</option>
-          <option value="2">ฝ่ายสินเชื่อ</option>
-          <option value="3">ฝ่ายขาย</option>
-          <option value="4">ฝ่ายจัดซื้อ</option>
-          <option value="5">ฝ่ายการเงิน</option>
-          <option value="6">ฝ่ายส่งของ</option>
-        </select>
-      </div>
+      
 
       <div class="my-3">
         <input type="submit" value="แก้ไขข้อมูล" class="btn btn-custom">
